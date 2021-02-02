@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: ;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EEE7E1;
+}
+header img{
+    margin-left: 8vw;
+    width: 60px;
+}
+header a{
+    text-decoration: none;
+    color:#707070;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 3vw;
+}
+header a:hover{
+    font-weight: bold;
+    color: black;
+}
+.divHeader{
+   display: flex;
+   align-items: center;
+}
+.divHeader-second{
+    margin-right: 8vw;
+}
+
+
+main{
+    height: 90.6vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEE7E1;
+}
+.divTitle{
+    display: flex;
+    flex-direction: column;
+}
+.divTitle h1{
+    width: 35vw;
+    line-height: 10rem;
+    color: white;
+    font-size: 12rem;
+    z-index: 1;
+    margin-left: 10vw;
+    margin-top: 15vh;
+}
+.divTitle h2{
+    position: absolute;
+    top: 31.6vh;
+    left: 27vw;
+    font-size: 1.7rem;
+    color: black;
+    z-index: 2;
+}
+.divTitle p{
+    width: 100px;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 4vh;
+    left: 27vw;
+}
+.divTitle-video{
+    width: 100px;
+    position: absolute;
+    bottom: 12vh;
+    left: 27vw;
+    background-image: url(assets/barriga@2x.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.divTitle-video img{
+    margin-left: 23px;
+}
+
+.imgAtleta{
+    position: absolute;
+    top: 4vh;
+    left: 28vw;
+    height: 95.8vh;
+    z-index: 0;
+}
+
+.divNav{
+
+}
+.divNav nav{
+    margin-right: 15vw;
+    margin-top: 15vh;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+.divNav a{
+    text-decoration: none;
+    color: #BAB6B3;
+    font-size: 2rem;
+}
+.divNav a:hover{
+    color: black;
+    font-weight: bold;
+}
+.divNav div{
+    height: 90px;
+    position: absolute;
+    top: 36.2vh;
+    right: 6vw;
+    background-image: url(assets/barriga.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.divNav img{
+    margin-top: -8px;
+}
